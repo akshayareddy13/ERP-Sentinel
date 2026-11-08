@@ -1,0 +1,22 @@
+# Python
+backend/.venv/
+__pycache__/
+*.pyc
+
+# Node
+frontend/node_modules/
+frontend/.next/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment secrets
+.env
+.env.local
+.env.*
+!.env.example
+
+# Git
+.DS_Store
